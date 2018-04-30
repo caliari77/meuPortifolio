@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head class="header">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Palanquin' rel='stylesheet' type='text/css'>
+
+
+
+    <title>Daniel Caliari</title>
+    <link rel="icon" href="./img/icon/logo2.png">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <header class='emg'>
+        <nav class="navbar navbar-inverse navbar-fixed-top mainNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primeiraNavbar">
+                        <i class="glyphicon glyphicon glyphicon-th" style="color:white"></i>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="primeiraNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation">
+                            <a href="/" class="navbar-brand navbar-right corBotao" style="color:white">
+                                <i class="glyphicon glyphicon-arrow-left"></i>
+                            </a>
+                        </li>
+                        <li role="presentation"><a class="corBotao" href="#oque">Iniciação Científica</a></li>
+                        <li role="presentation"><a class="corBotao" href="#funciona">Como funciona</a></li>
+                        <li role="presentation"><a class="corBotao" href="#psoc">PSoC<sup>&reg;</sup></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="inicio" class="container">
+            <a href="/">
+                <img src="./img/logo.png" class="logoInicio">
+            </a>
+        </div>
+
+
+    </header>
+
+
+    <div class="container conteudo corAlternada1">
+        <row>
+            <div class="col-sm-6">
+                <h2 id="oque"><strong>Iniciação Científica</strong></h2>
+                <p class="text-justify">
+                    Sob a orientação do professor <a hraf="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4584099E0"
+                        target="_blank">Dr. Renan Fernandes Kozan</a>, implementei um sistema para captar sinais eletromiográficos(EMG),
+                    sinais de tensão, de um bíceps em contração e, depois de devidamente processado, o sinal é enviado por
+                    Bluetooth para um dispositivo conectado.
+                </p>
+
+
+                <h2 id="funciona"><strong>Como funciona?</strong></h2>
+                <p class="text-justify">
+                    Depois de capturado por eletrodos aderidos superficialmente à pele, o sinal EMG é amplificado por um Amp-op de instrumentação,
+                    o INA118. O sinal analógico é digitalizado e filtrado por meio do PSoC 5 LP<sup>&reg;</sup>.
+                    Depois de devidamente tratado, o sinal é transmitido via Bluetooth Low Energy, por meio do PSoC 042 BLE<sup>&reg;</sup>.
+                    O sinal recebido é exposto em tempo real em um computador com um programa do LabVIEW<sup>&reg;</sup>.
+                </p>
+
+                <h2 id="psoc"><strong>PSoC<sup>&reg;</sup></strong></h2>
+                <p class="text-justify">
+                    Os PSoC<sup>&reg;</sup> são dispositivos criados pela empresa <a href="http://www.cypress.com/">Cypress<sup>&reg;</sup></a>,
+                    que possuem a tecnologia System on Chip. Essa tecnologia permite agrupar em um único circuito integrado,
+                    componentes eletrônicos analógicos e digitais, além de possuir também um microcontrolador interno. Essa
+                    orgaização permite reduzir o espaço físico e os custos de todo o projeto.
+
+                </p>
+            </div>
+
+            <div class="col-sm-6">
+                <img class="img-responsive customImg3" src="./img/psoc4.jpg">
+            </div>
+
+            <div class="col-sm-12">
+
+            </div>
+
+        </row>
+
+
+    </div>
+
+
+
+
+
+    <div class="container fimPagina">
+
+        <div class="container rodapeSocial">
+            <ul class="nav nav-pills endNav">
+
+
+                <li>
+                    <a class="navbar-brand itemRodape" href="https://linkedin.com/in/daniel-de-oliveira-caliari-93684051/" target="_blank">
+                        <img class="imgRodape" alt="Brand" src="./img/icon/in.png">
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="navbar-brand itemRodape" href="https://www.facebook.com/daniel.caliari" target="_blank">
+                        <img class="imgRodape" alt="Brand" src="./img/icon/face.png">
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="navbar-brand itemRodape" href="https://github.com/caliari77" target="_blank">
+                        <img class="imgRodape" alt="Brand" src="./img/icon/git.png">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="barra"></div>
+
+        <div class="container autor">
+            <center>
+                <h5>O site foi feito por <a href="https://www.linkedin.com/in/daniel-de-oliveira-caliari-93684051/" target="_blank">Daniel Caliari.</a></h5>
+                <h6>Todas as imagens foram retiradas de <a href="https://www.flaticon.com/" target="_blank">Flaticon</a>,
+                    <a href="https://www.pixabay.com/" target="_blank">Pixabay</a>,
+                    <a href="http://www.freepik.com" target="_blank">Freepik</a> e
+                    <a href="https://www.iconfinder.com/" target="_blank">IconFinder</a>,
+                     licenciadas como <a href="http://creativecommons.org/licenses/by/3.0/"
+                        title="Creative Commons BY 3.0" target="_blank">CC 3.0</a>
+                </h6>
+            </center>
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <script src="./front.js"></script>
+</body>
+
+</html>
