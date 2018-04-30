@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head class="header">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Palanquin' rel='stylesheet' type='text/css'>
+
+
+
+    <title>Daniel Caliari</title>
+    <link rel="icon" href="./img/icon/logo2.png">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <header class='corCabecalho'>
+        <nav class="navbar navbar-inverse navbar-fixed-top mainNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primeiraNavbar">
+                                <i class="glyphicon glyphicon glyphicon-th" style="color:white"></i>
+        
+                            </button>
+                </div>
+                <div class="collapse navbar-collapse" id="primeiraNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a class="corBotao" href="#formacao">Formação Acadêmica</a></li>
+                        <li role="presentation"><a class="corBotao" href="#iniciacao">Iniciação científica</a></li>
+                        <li role="presentation"><a class="corBotao" href="#equipe">Equipe de robótica</a></li>
+                        <li role="presentation"><a class="corBotao" href="#coliseu">Coliseu</a></li>
+                        <li role="presentation"><a class="corBotao" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <img src="./img/logo.png" style="max-width:20%; max-height:20%;">
+        </div>
+
+        <div class="container grupoIcone">
+
+            <row>
+                <div class="col-sm-4 col-xs-4 alturaCol">
+                    <img class="img-responsive customImg1" src="./img/chip.png">
+                    <h2 id="legenda" class="textoImg"><strong>Hardware</strong></h2>
+                </div>
+
+                <div class="col-sm-4 col-xs-4 alturaCol">
+                    <img class="img-responsive customImg1" src="./img/binary.png">
+                    <h2 id="legenda" class="textoImg"><strong>Software</strong></h2>
+                </div>
+
+                <div class="col-sm-4 col-xs-4 alturaCol">
+                    <img class="img-responsive customImg1" src="./img/brain.png">
+                    <h2 id="legenda" class="textoImg"><strong>Inteligência Artificial</strong></h2>
+                </div>
+
+            </row>
+
+        </div>
+    </header>
+
+
+
+
+    <div class="container conteudo corAlternada1">
+        <row id="formacao">
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/unifei.png">
+            </div>
+
+            <div class="col-sm-8">
+                <h2><strong>Formação Acadêmica</strong></h2>
+                <h4 class="text-justify">Formado em <strong>Engenharia de Computação</strong> pela Universidade Federal de Itajubá (<a href="https://www.unifei.edu.br/"
+                        target="_blank">Unifei</a>), Campus Itabira, em 04 de agosto de 2017. Tem interesse e participa de atividades
+                    relacionadas à tecnologia, software e hardware.</h4>
+            </div>
+        </row>
+    </div>
+
+
+
+    <div class="container conteudo corAlternada2">
+        <row id="iniciacao">
+            <div class="col-sm-8">
+                <h2><strong>Iniciação científica</strong></h2>
+                <h4 class="text-justify">Desenvolveu um sistema de aquisição de sinais eletromiográficos via Bluetooth, para exibir o sinal processado
+                    em tempo real em uma tela de computador. Foram utilizados os microcontroladores <a href="http://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and"
+                        target="_blank">PSoC 5LP</a>, para conversão analógico-digital de sinais e filtragem de ruídos, e
+                    <a
+                        href="http://www.cypress.com/documentation/development-kitsboards/cy8ckit-042-ble-bluetooth-low-energy-ble-pioneer-kit"
+                        target="_blank">PSoC 042 BLE</a>, para transmitir o sinal via Bluetooth.</h4>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/multimeter.png">
+            </div>
+        </row>
+    </div>
+
+
+    <div class="container conteudo corAlternada1">
+        <row id="equipe">
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/eye.png">
+            </div>
+
+            <div class="col-sm-8">
+                <h2><strong>Equipe de robótica</strong></h2>
+                <h4 class="text-justify">Foi programador na equipe de robótica Drumonters da <a href="https://www.unifei.edu.br/" target="_blank">Unifei</a>,
+                    Campus Itabira. Colaborou para a programação de MindStorm e desenvolveu software de processamentos de
+                    imagens para o futebol de robôs utilizando a linguagem de programação C/C++ com auxílio da biblioteca
+                    <a href="http://opencv.org/" target="_blank">OpenCV</a>.</h4>
+            </div>
+
+        </row>
+    </div>
+
+    <div class="container conteudo corAlternada2">
+        <row id="coliseu">
+            <div class="col-sm-8">
+                <h2><strong>Coliseu</strong></h2>
+                <h4 class="text-justify">Criou uma inteligência artificial híbrida chamada Coliseu, utilizada para resolver problemas de otimização.
+                    A ideia inicial do Coliseu consiste em utilizar pelo menos dois algoritmos evolucionários, como por exemplo <a href="https://en.wikipedia.org/wiki/Particle_swarm_optimization"
+                        target="_blank">PSO</a> e <a href="https://en.wikipedia.org/wiki/Genetic_algorithm" target="_blank">GA</a>,
+                    para competirem entre si. 
+                </h4>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/coliseum.png">
+            </div>
+
+        </row>
+    </div>
+
+    <div class="container conteudo corAlternada1">
+        <row id="coliseu">
+
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/certificate.png">
+            </div>
+
+            <div class="col-sm-8">
+                <h2><strong>Cursos/Eventos</strong></h2>
+
+                <table class="table table-condensed tab1">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Local</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node.js: Inovando com o Javascript no backend</td>
+                            <td>Alura Ensino Online</td>
+                            <td>08/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap: Criação de uma single-page responsiva</td>
+                            <td>Alura Ensino Online</td>
+                            <td>06/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Javascript: Programando na linguagem da web</td>
+                            <td>Alura Ensino Online</td>
+                            <td>03/2017</td>
+                        </tr>
+                        <tr>
+                            <td>Implementação de um Sistema de Aquisição de Sinais Eletromiográficos sem Fio</td>
+                            <td>I Congresso de pesquisa, extensão e ensino (CPEE) da Unifei - Campus Itabira</td>
+                            <td>10/2016</td>
+                        </tr>
+                        <tr>
+                            <td>Startup Weekend Itabira</td>
+                            <td>Unifei - Campus Itabira</td>
+                            <td>06/2016</td>
+                        </tr>
+
+                        <tr>
+                            <td>Módulo preparatório para o exame CAE no nível 5</td>
+                            <td>www.myenglishonline.com.br</td>
+                            <td>08/2015</td>
+                        </tr>
+                        <tr>
+                            <td>Segurança da Informação</td>
+                            <td>Diálogo TI - Intel</td>
+                            <td>01/2015</td>
+                        </tr>
+                        <tr>
+                            <td>Curso para iniciantes 1 - nível A1 de alemão</td>
+                            <td>Babbel</td>
+                            <td>01/2015</td>
+                        </tr>
+                        <tr>
+                            <td>Curso para iniciantes 2 - nível A1 de alemão</td>
+                            <td>Babbel</td>
+                            <td>01/2015</td>
+                        </tr>
+                        <tr>
+                            <td>PROTEUS/ARES - Confecção de placas de circuito impresso</td>
+                            <td>Semana de Engenharia Elétrica, Automação e Computação(SEAAC) - Unifei</td>
+                            <td>11/2014</td>
+                        </tr>
+                        <tr>
+                            <td>Integração de Sistemas</td>
+                            <td>Semana de Engenharia Elétrica, Automação e Computação(SEAAC) - Unifei</td>
+                            <td>11/2014</td>
+                        </tr>
+                        <tr>
+                            <td>LFS101x: Introduction to Linux</td>
+                            <td>The Linux Foundation through edX</td>
+                            <td>08/2014</td>
+                        </tr>
+                        <tr>
+                            <td>Introdução rápida ao desenvolvimento em HTML5 com JavaScript e CSS3</td>
+                            <td>Microsoft Virtual Academy</td>
+                            <td>01/2014</td>
+                        </tr>
+
+                        <tr>
+                            <td>IEEE Very Small</td>
+                            <td>Latin American Robotics Competition</td>
+                            <td>10/2012</td>
+                        </tr>
+                        <tr>
+                            <td>T3 - Interactive Graphics Applications with OpenGL Shading Language and Qt</td>
+                            <td>SIBGRAPI 2012 - 25th Conference on Graphics, Patterns and Images</td>
+                            <td>08/2012</td>
+                        </tr>
+                        <tr>
+                            <td>MCVIII - Sistemas Embarcados</td>
+                            <td>II COMPOSIUM - Simpósio de Computação (Unifei)</td>
+                            <td>04/2012</td>
+                        </tr>
+                        <tr>
+                            <td>MCV - Realidade Aumentada com Cross - Reality utilizando ARDUINO</td>
+                            <td>II COMPOSIUM - Simpósio de Computação (Unifei)</td>
+                            <td>04/2012</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Características desejáveis de um Programador para o Ambiente do Google Android</td>
+                            <td>CompileMG - III Congresso de Computação e Tecnologia de Informação do Leste de Minas Gerais</td>
+                            <td>10/2011</td>
+                        </tr>
+                        <tr>
+                            <td>Prolog, uma breve introdução</td>
+                            <td>CompileMG - III Congresso de Computação e Tecnologia de Informação do Leste de Minas Gerais</td>
+                            <td>10/2011</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+        </row>
+    </div>
+
+    <div class="container conteudo corAlternada2">
+        <row>
+            <h2><strong>O site</strong></h2>
+            <h4 class="text-justify">Para construir esse site, foram utilizadas as tecnologias:</h4>
+
+            <div class="col-sm-8">
+                <div class="col-sm-6">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Front-end</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bootstrap 3.3.7</td>
+                            </tr>
+                            <tr>
+                                <td>JQuery</td>
+                            </tr>
+                            <tr>
+                                <td>Javascript</td>
+                            </tr>
+                            <tr>
+                                <td>HTML 5</td>
+
+                            </tr>
+                            <tr>
+                                <td>CSS 3</td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-6">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Back-end</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Node.js</td>
+                            </tr>
+                            <tr>
+                                <td>Express.js</td>
+                            </tr>
+                            <tr>
+                                <td>Embedded Javascript</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-sm-12">
+                    <h4>Para hospedar a página e guardar os dados do site, são utilizados os serviços do <a href="https://firebase.google.com/"
+                            target="_blank">Firebase</a>. Experimente acessar esse site em um smartphone ou tablet, ele é responsivo!</h4>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/html-tag.png">
+            </div>
+        </row>
+    </div>
+
+    <div class="container conteudo corAlternada1">
+        <row id="contato">
+            <div class="col-sm-4">
+                <img class="img-responsive customImg2" src="./img/letter.png">
+            </div>
+
+            <div class="col-sm-8">
+                <h2><strong>Contato</strong></h2>
+                <h4>Email: oliveira.caliari@gmail.com
+                </h4>
+            </div>
+
+
+
+        </row>
+    </div>
+
+    </div>
+
+    <div class="container fimPagina">
+
+        <div class="container rodapeSocial">
+            <ul class="nav nav-pills endNav">
+
+
+                <li>
+                    <a class="navbar-brand itemRodape" href="https://linkedin.com/in/daniel-de-oliveira-caliari-93684051/" target="_blank">
+                        <img class="imgRodape" alt="Brand" src="./img/icon/in.png">
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="navbar-brand itemRodape" href="https://www.facebook.com/daniel.caliari" target="_blank">
+                        <img class="imgRodape" alt="Brand" src="./img/icon/face.png">
+                    </a>
+                </li>
+
+
+                <li>
+                    <a class="navbar-brand itemRodape" href="https://github.com/caliari77" target="_blank">
+                        <img class="imgRodape" alt="Brand" src="./img/icon/git.png">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="barra"></div>
+
+        <div class="container autor">
+            <center>
+                <h5>O site foi feito por <a href="https://www.linkedin.com/in/daniel-de-oliveira-caliari-93684051/" target="_blank">Daniel Caliari.</a></h5>
+                <h6>Todas as imagens foram retiradas de <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">Flaticon</a>, <a href="https://pixabay.com/">Pixabay</a> e 
+                    <a href="https://www.iconfinder.com/" target="_blank">IconFinder</a>, licenciadas como <a href="http://creativecommons.org/licenses/by/3.0/"
+                        title="Creative Commons BY 3.0" target="_blank">CC 3.0</a></h6>
+            </center>
+        </div>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <script src="./front.js"></script>
+</body>
+
+</html>
