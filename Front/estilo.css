@@ -1,0 +1,286 @@
+.logo{
+    padding-top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#legenda{
+    font-size: 100%;
+}
+
+.tab1{
+    font-size:10px;
+}
+
+/* sm */
+@media (min-width: 768px) {
+    #legenda{
+        font-size: 150%;
+    }
+    .tab1{
+        font-size: 14px;
+    }
+    .conteudo{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media (min-width: 500px) {
+    #legenda{
+        font-size: 150%;
+    }
+    .customImg1{
+        
+            max-height: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            
+}
+
+}
+
+
+@media (min-width: 992px) {
+    #legenda{
+        font-size: 200%;
+    }
+}
+
+.customImg1{
+    
+        max-height: 50%;
+        max-width: 50%;
+        margin: 0 auto;
+        
+}
+
+.customImg2{
+    
+        max-height: 40%;
+        max-width: 40%;
+        margin: 0 auto;     
+}
+
+.customImg3{
+    
+        max-height: 70%;
+        max-width: 70%;
+        margin: 0 auto;     
+}
+
+.corCabecalho{
+    background-color: #3F75D2;
+    background-size: cover; 
+    background-position: top center;
+    padding-bottom: 80px;
+}
+
+
+.coliseu{
+    background-image: url("./img/coliseum.jpg");
+    background-size: cover; 
+    background-position: top center;
+    padding-bottom: 80px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.emg{
+    background-image: url("./img/psoc.jpg");
+    background-size: cover; 
+    background-position: top center;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.rowInicio{
+    position: absolute;
+    transform: translate(0,50%);
+ 
+}
+
+.nome{
+    padding-top:40px;
+    
+}
+
+.sobrenome{
+    color: #FFFFFF;
+    
+}
+
+.grupoIcone{
+    padding-top: 60px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration:none;
+    background-color:#eee;
+  }
+  
+  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-inverse .navbar-toggle {
+     border-color: rgba(0, 0, 0, 0.00);
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #000000;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #000;
+}
+
+
+body {
+    font-family: 'Palanquin', sans-serif;
+  }
+
+.corAlternada1{
+    background-color: rgb(167, 187, 228);
+    width: 100%;
+}
+
+.corAlternada2{
+    background-color: rgb(211, 224, 250);
+    width: 100%;
+}
+
+.mainNav{
+    opacity: 1;
+    border-color: rgba(255, 255, 255, 0.00);
+    background-color: rgba(0, 0, 0, 0.0)
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: rgb(19, 56, 192);
+}
+
+.corBotao{
+    background-color: #2F316F;
+
+}
+
+
+.midNav{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+
+.ban{
+    background-color: rgba(255, 255, 255, 0.07);
+    transform: translate(0%,60%);
+    border-radius: 0px;
+}
+
+.sanduiche{
+    color: rgb(255, 255, 255);
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+
+.meio{
+    background-color: rgb(224, 229, 240);
+    width: 100%;
+    padding-bottom: 50px;
+   
+}
+
+.alturaCol{
+    margin-top: 40px;
+    
+    
+}
+
+
+
+.textoImg{
+    text-align: center;
+    transform: translate(0,60%);
+}
+
+.ajustaGrupo{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fimPagina{
+    padding:0px;
+    height: 300px;
+}
+
+.rodapeSocial{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.endNav{
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+
+.itemRodape{
+    padding-left: 0px;
+    height: 100%;
+}
+
+.imgRodape{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
+.barra{
+    
+    border-top: 4px solid #D1D0D0;
+
+    position: absolute;
+    margin: auto;
+    right:0;
+    left:0;
+    width: 100px;
+    height: 100px;
+  
+    
+    padding : 10px;
+    
+}
+
+.autor{
+    padding-top: 30px;
+}
